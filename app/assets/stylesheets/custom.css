@@ -1,0 +1,48 @@
+body {
+	background-color: none !important;
+}
+
+#background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.dressed {
+	margin: 20% auto 0px auto;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:0;
+}
+
+#headerwhite {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:0;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    /* background-color: #f9f9f9; */
+    /* border-color: #bbb; */
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+#heroarea {
+	margin: 40px -15px 0px -15px;
+}
+
+.dressed-one {
+	margin: 0px auto 0px auto;
+}
+

@@ -1,0 +1,37 @@
+
+
+<div id="headerwhite">
+    <img src="<%= asset_path("whiteheader.png") %>" width="100%">
+</div>
+
+<div id="heroarea">
+    <img src="<%= asset_path("heroarea.png") %>" width="100%">
+</div>
+
+<div class="slider fade">
+    <div class="image"><img src="<%= asset_path("dressed-one.png") %>" width="100%"></div>
+    <div class="image"><img src="<%= asset_path("undressed-one.png") %>" width="100%"></div>
+</div>
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+
+
+
+
+<script>
+$(document).ready(function(){
+  $('.fade').slick({
+  dots: false,
+  infinite: false,
+  arrows: false,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
+});    
+
+ </script>
